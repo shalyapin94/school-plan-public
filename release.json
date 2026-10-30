@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "mode": "demo",
-  "generated_at": "2026-10-30T09:46:19+00:00",
+  "generated_at": "2026-10-30T09:51:43+00:00",
   "events": 2,
   "sha256": {
-    "index.html": "15cb0f5a2f903cae73a44799644743abb43f4924fa109a9b42bfcfb64fa3bee2",
+    "index.html": "bd224e4549a90c948d8d915bf002a2e98352d3b216d866cd163573748011ff90",
     "app.js": "d5ed1ec809063ca2e6a02ea22138cabbed8eb4b3f1d733c0b1914ecb151a1790",
     "calendar.js": "096590521dda223510c558379bf7921c01486fd435df5f635a5126720c9e1fe5",
     "style.css": "5fcec7a8f4329a9ef9c80c572f06be3b15ca35ff75d5d351fa33331a03ca7a74",
