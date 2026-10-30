@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "mode": "demo",
+  "generated_at": "2026-10-30T09:08:59+00:00",
+  "events": 2,
+  "sha256": {
+    "index.html": "d98ec480c3e188e274c0144e29d0fcb6a88b0cc86a4442fdc23ec5451399adbc",
+    "app.js": "63dffcd0a16d072020dfa0382057e4b64a948f4dc43dc943f318b564be5d14bf",
+    "style.css": "aac7c25c9b03eb0ecaf62a92f42c6c5c6dd8ba0c471b549b09e063c7be8ac7e8",
+    "events.json": "0ce842b7e5de893d1c66cf1a89e3d3dcea90aa6e74ef5565d2f285e40a741569",
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
