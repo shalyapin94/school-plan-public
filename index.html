@@ -1,1 +1,42 @@
-<!doctype html><html lang="ru" data-events-url="./events.json"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>План работы школы 2026–2027</title><link rel="stylesheet" href="./style.css"><header><span class="badge">ДЕМОНСТРАЦИЯ · 2026 — 2027</span><h1>План работы школы</h1><p>Утверждённые мероприятия · учебный год 2026–2027</p></header><main><nav aria-label="Представление"><button data-view="month">Месяц</button><button data-view="week" class="active">Неделя</button><button data-view="day">День</button></nav><p><a id="share" href="?view=week">Ссылка на выбранный период</a></p><section class="filters"><label>Дата<input id="date" type="date" value="2026-10-30"></label><label>Поиск<input id="search" type="search" placeholder="Мероприятие или ответственный"></label><label>Корпус<select id="campus"><option value="">Все корпуса</option></select></label></section><div class="range"><button id="prev" aria-label="Предыдущий период">←</button><h2 id="period"></h2><button id="next" aria-label="Следующий период">→</button></div><p id="count" aria-live="polite"></p><section id="events" class="grid"></section><footer>Публикация мероприятий — после проверки заместителем директора.<br>Демонстрационный сайт. Все мероприятия вымышлены.<br>Выпуск: 2026-10-30T09:08:59+00:00</footer></main><script src="./app.js"></script></html>
+<!doctype html>
+<html lang="ru" data-events-url="./events.json">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#be1e2d">
+<meta name="description" content="Календарь утверждённых мероприятий школы: планы на месяц, неделю и день.">
+<title>План работы школы · 2026–2027</title>
+<link rel="icon" href="./logo.jpg" type="image/jpeg">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<a class="skip-link" href="#calendar">Перейти к календарю</a>
+<header class="site-header">
+  <div class="header-inner">
+    <img class="school-logo" src="./logo.jpg" width="80" height="80" alt="Логотип школы имени В. В. Маяковского">
+    <div class="brand"><p class="school-name">Школа имени В. В. Маяковского</p><h1>План работы школы</h1><p class="academic-year">2026–2027 учебный год</p></div>
+    <span class="demo-badge">Демонстрация</span>
+    
+  </div>
+</header>
+<main>
+  <section class="calendar-shell" aria-label="Календарь планов">
+    <div class="calendar-toolbar">
+      <div class="period-navigation"><button id="prev" class="icon-button" aria-label="Предыдущий месяц">‹</button><h2 id="period" tabindex="-1"></h2><button id="next" class="icon-button" aria-label="Следующий месяц">›</button><button id="today" class="quiet-button">Сегодня</button></div>
+      <nav class="view-switch" aria-label="Представление календаря"><button data-view="month" aria-pressed="true">Месяц</button><button data-view="week" aria-pressed="false">Неделя</button><button data-view="day" aria-pressed="false">День</button></nav>
+    </div>
+    <div class="filters">
+      <label class="search-label"><span>Поиск по плану</span><input id="search" type="search" placeholder="Мероприятие или ответственный"></label>
+      <label><span>Корпус</span><select id="campus"><option value="">Все корпуса</option></select></label>
+      <label class="date-label"><span>Перейти к дате</span><input id="date" type="date"></label>
+    </div>
+    <div class="calendar-context"><p id="hint">Выберите дату, чтобы открыть план дня. Номер недели открывает план недели.</p><a id="share" href="?view=month">Ссылка на этот месяц</a></div>
+    <div id="calendar" tabindex="-1"><p class="loading" role="status">Загружаем план…</p></div>
+    <div class="calendar-bottom"><p id="count" role="status" aria-live="polite"></p><div class="legend"><span><i class="event-dot"></i> Есть мероприятия</span><span><i class="today-dot"></i> Сегодня</span></div></div>
+  </section>
+  <footer class="site-footer"><span>Только утверждённые мероприятия</span><span class="publication-message">Демонстрация · все мероприятия вымышлены</span><span class="release-label">Обновлено: 2026-10-30 09:46:19 UTC</span></footer>
+</main>
+<script src="./calendar.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>
