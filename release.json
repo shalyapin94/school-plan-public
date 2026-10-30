@@ -1,15 +1,16 @@
 {
   "schema": 1,
-  "mode": "demo",
-  "generated_at": "2026-10-30T09:51:43+00:00",
+  "mode": "redirect",
+  "generated_at": "2026-10-30T10:52:05+00:00",
   "events": 2,
   "sha256": {
-    "index.html": "bd224e4549a90c948d8d915bf002a2e98352d3b216d866cd163573748011ff90",
+    "index.html": "6da5dff73a73ed2a6f041c9ad5f184d4b71b0a943cedc589d8870585f252c508",
     "app.js": "d5ed1ec809063ca2e6a02ea22138cabbed8eb4b3f1d733c0b1914ecb151a1790",
     "calendar.js": "096590521dda223510c558379bf7921c01486fd435df5f635a5126720c9e1fe5",
     "style.css": "5fcec7a8f4329a9ef9c80c572f06be3b15ca35ff75d5d351fa33331a03ca7a74",
     "logo.jpg": "4f0d4f54dc175add5e5bfbdc963cb2b711202971eda9952ded24095cfe96fe33",
     "events.json": "0ce842b7e5de893d1c66cf1a89e3d3dcea90aa6e74ef5565d2f285e40a741569",
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  }
+  },
+  "redirect_to": "https://mayakschool.github.io/plan/"
 }
